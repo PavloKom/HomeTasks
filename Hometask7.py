@@ -1,5 +1,0 @@
-FirstNumber =int(input("Enter a 4-digit number: "))
-print(int((FirstNumber % 10000 - FirstNumber % 1000)/1000))
-print(int((FirstNumber % 1000 - FirstNumber % 100)/100))
-print(int((FirstNumber % 100 - FirstNumber % 10)/10))
-print(FirstNumber % 10)
